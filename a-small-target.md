@@ -181,10 +181,9 @@ mindmap
 1. **反思大模型局限**：传统路线依赖大模型，但它是否有固有缺陷？什么缺陷？为什么存在？能否“越狱”或设计轻量/确定性方案规避？
 2. **反向检索/推理范式**：传统用 Query 搜索 Gallery，能否反过来通过 Gallery 反问（根据 Top Candidate 反向生成/筛选约束条件或问题）？
 
+ 
 
-### Find X （之前的工作）
-
-## 📊 研究任务 - 算法 - 引用对照表
+## 📊 Find X （之前的工作）
 
 ### 🔹 Novel-View Data Generation / Collection
 
