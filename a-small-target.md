@@ -187,7 +187,7 @@ mindmap
 
 ### 🔹 Novel-View Data Generation / Collection
 
-| Survey (研究任务) | Algorithm / 论文 / 备注 |
+| Task | Algorithm / 论文 / 备注 |
 |------------------|------------------------|
 | **1D Speech Generation** | Speech Transfer [27] |
 | **2D Person Generation / Video Generation** | Cloth Try-on [1], Sign Language Generation [28, 29], Multi-round 2D Diffusion [36] |
@@ -205,7 +205,7 @@ mindmap
 
 ### 🔹 Multi-view Data Matching (Multi-View Understanding)
 
-| Survey (研究任务) | Algorithm / 论文 / 备注 |
+| Task | Algorithm / 论文 / 备注 |
 |------------------|------------------------|
 | **Model Structure (CNN)** | PAN [16], Thorax [20], LPN [14], RK-Net [22], StepNet [29] |
 | **Model Structure (Transformer / Mamba / LLaVA)** | Differential Query [50] |
@@ -230,7 +230,7 @@ mindmap
 
 ### 🔹 Data Generation + Data Matching (Understanding Human/Object Deeply)
 
-| Survey (研究任务) | Algorithm / 论文 / 备注 |
+| Task | Algorithm / 论文 / 备注 |
 |------------------|------------------------|
 | **GAN/Diffusion for Data Augmentation** | in vitro [10], DG-Net [11], CameraStyle [19], Pretraining [6], Abnormal Image/Video [46, 61]; Abnormal Video Generation [46] |
 | **Domain Adaptation / Pseudo Label Refinery** | Uncertainty [12], Memory Regularization [13], PiPa [30], Depth Distribution Alignment [33], Uncertainty [35], Context-aware [62] |
