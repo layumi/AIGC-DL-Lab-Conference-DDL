@@ -197,9 +197,9 @@ mindmap
 | **2D/3D CrossView Scene Generation (BirdView)** | Video2BEV [45] |
 | **2D Vehicle Collection** | VehicleNet [4] |
 | **2D Vehicle Generation + 3D Clues** | Vehicle ReID [44] |
-| **2D Paint Generation** | `Linyu` → Diff Image; `Qichao` → Test-time Adaptation [47] |
+| **2D Paint Generation** | Diff Image [50] ; Test-time Adaptation [47] |
 | **3D Mesh Generation** | 3D Magic Mirror [25] |
-| **Language Guided 2D/3D Generation** | Text-to-3D Diffusion [36]; `Yinuo` → Depth Fusion; `Bankey` → Traditional Art |
+| **Language Guided 2D/3D Generation** | Text-to-3D Diffusion [36]; `Zhao Rui` → Depth Fusion; `Bankey` → Traditional Art |
 | **Video Generation** | Painting Animation [43], Sign Language Video [28] |
 | **Emotional Expression Generation** | Emotional Facial Expressions [48] |
 | **Hand-Object Interaction** | TIGeR [49] |
@@ -209,13 +209,13 @@ mindmap
 | Survey (研究任务) | Algorithm / 论文 / 备注 |
 |------------------|------------------------|
 | **Model Structure (CNN)** | PAN [16], Thorax [20], LPN [14], RK-Net [22], StepNet [29] |
-| **Model Structure (Transformer / Mamba / LLaVA)** | `Jacky`, `Wang Hao`, Differential Query [50] |
+| **Model Structure (Transformer / Mamba / LLaVA)** | Differential Query [50] |
 | **AutoML** | — |
-| **Occlusion Handling** | `Diego` → Loss / Uncertainty |
+| **Occlusion Handling** | Loss / Uncertainty |
 | **Loss Design** | Contrastive Loss [18], Instance Loss [5], Decorrelation [51] |
 | **Language + Image** | GeoText [32], APTM [39], Dual-path [5] |
 | **Image Retrieval with Text Feedback** | Uncertainty Embedding [31], Consistency [41], Joint Graph [52] |
-| **Multi-round Retrieval** | `Hao Ju` via LLM [38, 53] |
+| **Multi-round Retrieval** |  LLM [38, 53] |
 | **3D Point Cloud / Registration** | 3D Re-ID [7], Unsupervised 3D [34, 35] |
 | **Extra Annotations (Meta Info)** | Attribute [17] |
 | **Re-ID + Tracking** | — |
@@ -225,7 +225,7 @@ mindmap
 | **Audio-Video Retrieval** | VimoRAG [55] |
 | **Vehicle Re-ID** | VehicleNet [4], Vehicle ReID [44], Robust Vehicle [56] |
 | **Depth Estimation** | Uncertainty [37], Depth-aware [57, 58] |
-| **Trajectory Prediction** | `Jintao Sun` [59] |
+| **Trajectory Prediction** | Uncertainty [59] |
 | **Pruning** | Soft Pruning [9], WoRA [40], Progressive [60] |
 | **Cross-view Geo-localization** | University-1652 [3], LPN [14], RK-Net [22], Multi-environment [26] |
 
@@ -233,11 +233,11 @@ mindmap
 
 | Survey (研究任务) | Algorithm / 论文 / 备注 |
 |------------------|------------------------|
-| **GAN/Diffusion for Data Augmentation** | in vitro [10], DG-Net [11], CameraStyle [19], Pretraining [6], Abnormal Image/Video [46, 61]; `Shuyu Yang` → Abnormal Video Generation [46] |
+| **GAN/Diffusion for Data Augmentation** | in vitro [10], DG-Net [11], CameraStyle [19], Pretraining [6], Abnormal Image/Video [46, 61]; Abnormal Video Generation [46] |
 | **Domain Adaptation / Pseudo Label Refinery** | Uncertainty [12], Memory Regularization [13], PiPa [30], Depth Distribution Alignment [33], Uncertainty [35], Context-aware [62] |
 | **Model Ensemble / Data Selection** | Adaboost [21], 2D+3D [34] |
 | **Meta Learning for Multi-Domain** | Multi-weather [26], CAMeL [42], Meta Learning [42] |
-| **Uncertainty + LLM** | `Ruiyang` → Qwen [35, 63]; `Mingyang` → Medical Text LLM; VL-Uncertainty [63] |
+| **Uncertainty + LLM** | Qwen [35, 63]; `Mingyang` → Medical Text LLM; VL-Uncertainty [63] |
 | **Text-based Person Retrieval** | APTM [39], CAMeL [42], WoRA [40], Pretrain-then-Adapt [64], Weak Pair [65], Domain-aligned [66] |
 | **Test-Time Adaptation** | `Qichao` [47], Ctrl-u [67], Pretrain-then-Adapt [64] |
 | **Anomaly Detection** | UniAD [68], Beyond Walking [46], AnomalyLMM [69] |
